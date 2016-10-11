@@ -1,6 +1,8 @@
 from Myro import *
 init("sim")
 
+#song: cha cha slide (0:30-1:30)
+
 #STARTING LOCATION OF SCRIBBLY
 turnBy(90)
 
@@ -31,6 +33,26 @@ def crisscross():
     turnLeft(2,.5)
     turnRight(4,.5)
     turnLeft(2,.5)
+    
+#STILL NEED TO DEFINE CHACHA()
+
+def twohops():
+    forward(.5,.25)
+    backward(.5,.25)
+    forward(.5,.25)
+    backward(.5,.25)
+    
+ def rightfoottwostomps():
+    turnRight(.5,.25)
+    turnLeft(.5,.25)
+    turnRight(.5,.25)
+    turnLeft(.5,.25)
+    
+ def leftfoottwostomps():
+    turnLeft(.5,.25)
+    turnRight(.5,.25)
+    turnLeft(.5,.25)
+    turnRight(.5,.25)
  
 #DANCE BEGINS   
 totheLeft()
