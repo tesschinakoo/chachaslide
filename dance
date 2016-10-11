@@ -42,13 +42,13 @@ def twohops():
     forward(.5,.25)
     backward(.5,.25)
     
- def rightfoottwostomps():
+def rightfoottwostomps():
     turnRight(.5,.25)
     turnLeft(.5,.25)
     turnRight(.5,.25)
     turnLeft(.5,.25)
     
- def leftfoottwostomps():
+def leftfoottwostomps():
     turnLeft(.5,.25)
     turnRight(.5,.25)
     turnLeft(.5,.25)
