@@ -3,9 +3,6 @@ init("sim")
 
 #song: cha cha slide (0:30-1:30)
 
-#STARTING LOCATION OF SCRIBBLY
-turnBy(90)
-
 #DEFINING DANCE FUNCTIONS
 
 def totheLeft(): #dance for guy says "to the left"
@@ -22,12 +19,12 @@ def onehop():
     backward(1,.25)
     
 def rightfoot():
-    turnRight(1,.5)
-    turnLeft(1,.5)
+    turnLeft(1,.75)
+    turnRight(1,.25)
 
 def leftfoot():
-    turnLeft(1,.5)
-    turnRight(1,.5)
+    turnRight(1,.75)
+    turnLeft(1,.25)
 
 def crisscross():
     turnLeft(2,.5)
@@ -46,16 +43,16 @@ def twohops():
     backward(.5,.25)
     
 def rightfoottwostomps():
-    turnRight(.5,.25)
     turnLeft(.5,.25)
     turnRight(.5,.25)
     turnLeft(.5,.25)
+    turnRight(.5,.25)
     
 def leftfoottwostomps():
-    turnLeft(.5,.25)
     turnRight(.5,.25)
     turnLeft(.5,.25)
     turnRight(.5,.25)
+    turnLeft(.5,.25)
     
 def slidetotheleft():
     move(1,1)
@@ -66,27 +63,6 @@ def slidetotheright():
     move(1,-1)
     wait(1)
     stop()
- 
-#DANCEMOVESTESTRUN   
-totheLeft()
-wait(1)
-totheRight()
-wait(1)
-takeitback()
-wait(1)
-onehop()
-wait(1)
-rightfoot()
-wait(1)
-leftfoot()
-wait(1)
-crisscross()
-wait(1)
-chacha()
-wait(1)
-slidetotheleft()
-wait(1)
-slidetotheright()
 
 #FIRSTVERSE
 totheLeft()
@@ -100,6 +76,8 @@ wait(1)
 leftfoot()
 wait(1)
 chacha()
+
+wait(3)
 
 #SECONDVERSE
 totheLeft()
@@ -115,6 +93,8 @@ wait(1)
 chacha()
 wait(1)
 
+wait(1.5)
+
 #THIRDVERSE
 totheRight()
 wait(1)
@@ -123,9 +103,9 @@ wait(1)
 takeitback()
 wait(1)
 onehop()
-wait(1)
+wait(1.5)
 onehop()
-wait(1)
+wait(1.5)
 rightfoottwostomps()
 wait(1)
 leftfoottwostomps()
@@ -135,3 +115,7 @@ wait(1)
 slidetotheright()
 wait(1)
 crisscross()
+wait(.5)
+crisscross()
+wait(.5)
+chacha()
