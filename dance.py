@@ -17,7 +17,7 @@ def takeitback():
 def onehop():
     forward(1,.25)
     backward(1,.25)
-    wait(1.5)
+    wait(.5)
     
 def rightfoot():
     turnLeft(1,.75)
@@ -60,11 +60,10 @@ def slidetotheright():
     stop()
 
 #FIRSTVERSE
-wait(1)
 totheLeft()
 wait(1)
 takeitback()
-wait(1)
+wait(1.25)
 onehop()
 wait(1)
 rightfoot()
@@ -79,7 +78,7 @@ wait(2)
 totheLeft()
 wait(1)
 takeitback()
-wait(1)
+wait(1.5)
 onehop()
 rightfoot()
 wait(1)
@@ -88,7 +87,7 @@ wait(1)
 chacha()
 wait(1)
 
-wait(1.5)
+wait(1)
 
 #NOW ITS TIME TO GET FUNKY
 totheRight()
@@ -99,6 +98,7 @@ takeitback()
 wait(1)
 for x in range(0,2):
     onehop()
+    wait(.75)
 
 rightfoottwostomps()
 wait(1)
